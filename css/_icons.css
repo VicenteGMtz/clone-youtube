@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("/fonts/icomoon.eot?qszfmr");
+  src: url("/fonts/icomoon.eot?qszfmr#iefix") format("embedded-opentype"),
+    url("/fonts/icomoon.ttf?qszfmr") format("truetype"),
+    url("/fonts/icomoon.woff?qszfmr") format("woff"),
+    url("/fonts/icomoon.svg?qszfmr#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+  content: "\e90a";
+}
+.icon-mic:before {
+  content: "\e90b";
+}
+.icon-check:before {
+  content: "\e900";
+}
+.icon-download:before {
+  content: "\e901";
+}
+.icon-game:before {
+  content: "\e902";
+}
+.icon-help:before {
+  content: "\e903";
+}
+.icon-history:before {
+  content: "\e904";
+}
+.icon-home:before {
+  content: "\e905";
+}
+.icon-learn:before {
+  content: "\e906";
+}
+.icon-library:before {
+  content: "\e907";
+}
+.icon-liked:before {
+  content: "\e908";
+}
+.icon-live:before {
+  content: "\e909";
+}
+.icon-movies:before {
+  content: "\e90c";
+}
+.icon-music:before {
+  content: "\e90d";
+}
+.icon-news:before {
+  content: "\e90e";
+}
+.icon-notifications:before {
+  content: "\e90f";
+}
+.icon-originals:before {
+  content: "\e910";
+}
+.icon-report:before {
+  content: "\e911";
+}
+.icon-search-circle:before {
+  content: "\e912";
+}
+.icon-search:before {
+  content: "\e913";
+}
+.icon-send-feedback:before {
+  content: "\e914";
+}
+.icon-settings:before {
+  content: "\e915";
+}
+.icon-shorts:before {
+  content: "\e916";
+}
+.icon-sports:before {
+  content: "\e917";
+}
+.icon-subscription:before {
+  content: "\e918";
+}
+.icon-trending:before {
+  content: "\e919";
+}
+.icon-videocam:before {
+  content: "\e91a";
+}
+.icon-watch-later:before {
+  content: "\e91b";
+}
+.icon-youtube-music:before {
+  content: "\e91c";
+}
+.icon-youtube:before {
+  content: "\e91d";
+}
