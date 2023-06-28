@@ -1,0 +1,5 @@
+.main-container {
+  background-color: wheat;
+  grid-column: center-start/center-end;
+  grid-row: 3/-1;
+}

@@ -1,0 +1,4 @@
+.header {
+  background-color: black;
+  grid-column: 1/-1;
+}

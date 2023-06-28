@@ -1,0 +1,70 @@
+:root {
+  /*fonts*/
+  --baseFontFamily: Roboto, sans-serif;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts//roboto/Roboto-Black.ttf") format("truetype");
+  font-weight: bolder;
+  font-size: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/roboto/Roboto-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-size: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/roboto/Roboto-Light.ttf") format("truetype");
+  font-weight: lighter;
+  font-size: normal;
+}
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/roboto/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-size: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/roboto/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-size: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/roboto/Roboto-Thin.ttf") format("truetype");
+  font-weight: 200;
+  font-size: normal;
+}
+
+.headLine1-bolder {
+  font: bolder 3.2rem / normal var(--baseFontFamily);
+  line-height: normal;
+}
+
+.headLine1-bold {
+  font: bold 3.2rem / normal var(--baseFontFamily);
+}
+
+.headLineMedium {
+  font: 500 2.4rem / normal var(--baseFontFamily);
+}
+
+.headLineRegular {
+  font: 400 2.4rem / normal var(--baseFontFamily);
+}
+
+.headLineThin {
+  font: 300 2.4rem / normal var(--baseFontFamily);
+}
+
+.headLineLighter {
+  font: 200 2.4rem / normal var(--baseFontFamily);
+}

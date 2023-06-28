@@ -1,5 +1,37 @@
+:root {
+  /*palete*/
+  --primary-color: #282828;
+  --accent-color: #ff0000;
+  --accent-color1: #e60000;
+  --accent-color2: #cc0000;
+  --accent-color3: #b30000;
+  --accent-color4: #990000;
+  --secondary-color: #909090;
+  --secondary-color1: #808080;
+  --secondary-color2: #707070;
+  --secondary-color3: #606060;
+  --secondary-color3: #505050;
+  --background-color: #181818;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 10px/16px = 62.5% -> 1rem=10px*/
+}
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns:
+    [sidebar-start] 10rem [sidebar-end full-start] minmax(1.6rem, 3.2rem)
+    [center-start]
+    repeat(10, 1fr) [center-end] minmax(1.6rem, 3.2rem) [full-end];
+  grid-template-rows: 2rem 2rem calc(100vh - 4rem);
+  background-color: var(--background-color);
 }
